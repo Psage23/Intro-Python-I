@@ -58,6 +58,9 @@ print(waypoints[0])
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
+#for waypoint in waypoints:
+    #for key, value in waypoint.items():
+        #print(value)
 for waypoint in waypoints:
-    for key, value in waypoint.items():
-        print(value)
+    for x in waypoint.values():
+        print(x)
